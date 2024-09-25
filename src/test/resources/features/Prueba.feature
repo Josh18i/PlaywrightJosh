@@ -12,5 +12,5 @@ Feature: Gestión de Empleados en OrangeHRM
   Scenario: Registrar un empleado
     Given El usuario "Admin" "admin123" ha iniciado sesión exitosamente
     And accede al módulo PIM
-    When se completan y envían los datos del nuevo empleado "Juandd" "Paco" "Gómez"
+    When se completan y envían los datos del nuevo empleado "Morfiso" "Paco" "Gómez"
     Then el sistema debe mostrar al empleado registrado correctamente
